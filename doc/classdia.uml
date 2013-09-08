@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2013 "Matteo Martelli".
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v2.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+  
+  Contributors:
+      "Matteo Martelli" - initial API and implementation
+-->
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_4HNEkA_YEeOHyJHuq9PZ0A" name="Model">
+  <packageImport xmi:id="_4HNEkQ_YEeOHyJHuq9PZ0A">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_BXj1oA_ZEeOHyJHuq9PZ0A" name="Game">
+    <ownedAttribute xmi:id="_sHYAEA_ZEeOHyJHuq9PZ0A" name="class1" type="_NAXr0A_ZEeOHyJHuq9PZ0A" association="_sHZOMA_ZEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sHYAEQ_ZEeOHyJHuq9PZ0A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sHYAEg_ZEeOHyJHuq9PZ0A" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_4e8ZsA_ZEeOHyJHuq9PZ0A" name="player" type="_NAXr0A_ZEeOHyJHuq9PZ0A" association="_4e-O4A_ZEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4e8ZsQ_ZEeOHyJHuq9PZ0A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4e8Zsg_ZEeOHyJHuq9PZ0A" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NAXr0A_ZEeOHyJHuq9PZ0A" name="Player">
+    <ownedAttribute xmi:id="_oDmooA_ZEeOHyJHuq9PZ0A" name="player" type="_NAXr0A_ZEeOHyJHuq9PZ0A" association="_oDn2wA_ZEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oDmooQ_ZEeOHyJHuq9PZ0A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oDmoog_ZEeOHyJHuq9PZ0A" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:AssociationClass" xmi:id="_e_sYIA_ZEeOHyJHuq9PZ0A" name="AssociationClass1" memberEnd="_e_sYIQ_ZEeOHyJHuq9PZ0A">
+    <ownedEnd xmi:id="_e_sYIQ_ZEeOHyJHuq9PZ0A" name="player" association="_e_sYIA_ZEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_e_sYIg_ZEeOHyJHuq9PZ0A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_e_sYIw_ZEeOHyJHuq9PZ0A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_oDn2wA_ZEeOHyJHuq9PZ0A" name="player_player_1" memberEnd="_oDn2wQ_ZEeOHyJHuq9PZ0A _oDmooA_ZEeOHyJHuq9PZ0A">
+    <ownedEnd xmi:id="_oDn2wQ_ZEeOHyJHuq9PZ0A" name="player" type="_NAXr0A_ZEeOHyJHuq9PZ0A" association="_oDn2wA_ZEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oDn2wg_ZEeOHyJHuq9PZ0A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oDn2ww_ZEeOHyJHuq9PZ0A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_sHZOMA_ZEeOHyJHuq9PZ0A" name="game_class1_1" memberEnd="_sHZOMQ_ZEeOHyJHuq9PZ0A _sHYAEA_ZEeOHyJHuq9PZ0A">
+    <ownedEnd xmi:id="_sHZOMQ_ZEeOHyJHuq9PZ0A" name="game" type="_BXj1oA_ZEeOHyJHuq9PZ0A" association="_sHZOMA_ZEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sHZOMg_ZEeOHyJHuq9PZ0A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sHZOMw_ZEeOHyJHuq9PZ0A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4e-O4A_ZEeOHyJHuq9PZ0A" name="game_player_1" memberEnd="_4e-O4Q_ZEeOHyJHuq9PZ0A _4e8ZsA_ZEeOHyJHuq9PZ0A">
+    <ownedEnd xmi:id="_4e-O4Q_ZEeOHyJHuq9PZ0A" name="game" type="_BXj1oA_ZEeOHyJHuq9PZ0A" association="_4e-O4A_ZEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4e-O4g_ZEeOHyJHuq9PZ0A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4e-O4w_ZEeOHyJHuq9PZ0A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_aiHkIA_aEeOHyJHuq9PZ0A" name="game_player" memberEnd="_aiHkIQ_aEeOHyJHuq9PZ0A _aiFu8A_aEeOHyJHuq9PZ0A">
+    <ownedEnd xmi:id="_aiHkIQ_aEeOHyJHuq9PZ0A" name="game" type="_BXj1oA_ZEeOHyJHuq9PZ0A" association="_aiHkIA_aEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aiHkIg_aEeOHyJHuq9PZ0A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aiHkIw_aEeOHyJHuq9PZ0A" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_aiFu8A_aEeOHyJHuq9PZ0A" name="player" type="_NAXr0A_ZEeOHyJHuq9PZ0A" association="_aiHkIA_aEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aiFu8Q_aEeOHyJHuq9PZ0A" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aiFu8g_aEeOHyJHuq9PZ0A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_3xoLQA_aEeOHyJHuq9PZ0A" name="Turn">
+    <ownedAttribute xmi:id="_8eGhcA_aEeOHyJHuq9PZ0A" name="game_player" type="_aiHkIA_aEeOHyJHuq9PZ0A" association="_8eIWoA_aEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8eGhcQ_aEeOHyJHuq9PZ0A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8eGhcg_aEeOHyJHuq9PZ0A" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8eIWoA_aEeOHyJHuq9PZ0A" name="gameSession_game_player_1" memberEnd="_8eIWoQ_aEeOHyJHuq9PZ0A _8eGhcA_aEeOHyJHuq9PZ0A">
+    <ownedEnd xmi:id="_8eIWoQ_aEeOHyJHuq9PZ0A" name="gameSession" type="_3xoLQA_aEeOHyJHuq9PZ0A" association="_8eIWoA_aEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8eIWog_aEeOHyJHuq9PZ0A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8eIWow_aEeOHyJHuq9PZ0A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-nhsEA_aEeOHyJHuq9PZ0A" name="turn_game" memberEnd="_-nhsEQ_aEeOHyJHuq9PZ0A _-ngd8A_aEeOHyJHuq9PZ0A">
+    <ownedEnd xmi:id="_-nhsEQ_aEeOHyJHuq9PZ0A" name="turn" type="_3xoLQA_aEeOHyJHuq9PZ0A" association="_-nhsEA_aEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-nhsEg_aEeOHyJHuq9PZ0A" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-nhsEw_aEeOHyJHuq9PZ0A"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_-ngd8A_aEeOHyJHuq9PZ0A" name="game" type="_BXj1oA_ZEeOHyJHuq9PZ0A" association="_-nhsEA_aEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-ngd8Q_aEeOHyJHuq9PZ0A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-ngd8g_aEeOHyJHuq9PZ0A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_aHdzAA_bEeOHyJHuq9PZ0A" name="player_turn" memberEnd="_aHdzAQ_bEeOHyJHuq9PZ0A _aHb90A_bEeOHyJHuq9PZ0A">
+    <ownedEnd xmi:id="_aHdzAQ_bEeOHyJHuq9PZ0A" name="player" type="_NAXr0A_ZEeOHyJHuq9PZ0A" association="_aHdzAA_bEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aHdzAg_bEeOHyJHuq9PZ0A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aHdzAw_bEeOHyJHuq9PZ0A" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_aHb90A_bEeOHyJHuq9PZ0A" name="turn" type="_3xoLQA_aEeOHyJHuq9PZ0A" association="_aHdzAA_bEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aHb90Q_bEeOHyJHuq9PZ0A" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aHb90g_bEeOHyJHuq9PZ0A"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_-VfEYA_bEeOHyJHuq9PZ0A" name="Timer"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_AtNJsw_cEeOHyJHuq9PZ0A" name="turn_timer" memberEnd="_AtNJtA_cEeOHyJHuq9PZ0A _AtNJsA_cEeOHyJHuq9PZ0A">
+    <ownedEnd xmi:id="_AtNJtA_cEeOHyJHuq9PZ0A" name="turn" type="_3xoLQA_aEeOHyJHuq9PZ0A" association="_AtNJsw_cEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AtNJtQ_cEeOHyJHuq9PZ0A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AtNJtg_cEeOHyJHuq9PZ0A" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_AtNJsA_cEeOHyJHuq9PZ0A" name="timer" type="_-VfEYA_bEeOHyJHuq9PZ0A" association="_AtNJsw_cEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AtNJsQ_cEeOHyJHuq9PZ0A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AtNJsg_cEeOHyJHuq9PZ0A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_btQPoA_cEeOHyJHuq9PZ0A" name="class1_class2_1" memberEnd="_btQPoQ_cEeOHyJHuq9PZ0A _btPBgA_cEeOHyJHuq9PZ0A">
+    <ownedEnd xmi:id="_btQPoQ_cEeOHyJHuq9PZ0A" name="class1" type="_RjlQ8A_cEeOHyJHuq9PZ0A" association="_btQPoA_cEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_btQPog_cEeOHyJHuq9PZ0A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_btQPow_cEeOHyJHuq9PZ0A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_gOj3oA_cEeOHyJHuq9PZ0A" name="class1_class2_2" memberEnd="_gOj3oQ_cEeOHyJHuq9PZ0A _gOjQkA_cEeOHyJHuq9PZ0A">
+    <ownedEnd xmi:id="_gOj3oQ_cEeOHyJHuq9PZ0A" name="class1" type="_RjlQ8A_cEeOHyJHuq9PZ0A" association="_gOj3oA_cEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gOj3og_cEeOHyJHuq9PZ0A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gOj3ow_cEeOHyJHuq9PZ0A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_lCx0kA_cEeOHyJHuq9PZ0A" name="class1_class2_3" memberEnd="_lCx0kQ_cEeOHyJHuq9PZ0A _lCwmcA_cEeOHyJHuq9PZ0A">
+    <ownedEnd xmi:id="_lCx0kQ_cEeOHyJHuq9PZ0A" name="class1" type="_RjlQ8A_cEeOHyJHuq9PZ0A" association="_lCx0kA_cEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lCx0kg_cEeOHyJHuq9PZ0A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lCx0kw_cEeOHyJHuq9PZ0A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wISJYA_cEeOHyJHuq9PZ0A" name="game_team" memberEnd="_wISJYQ_cEeOHyJHuq9PZ0A _wIQ7QA_cEeOHyJHuq9PZ0A">
+    <ownedEnd xmi:id="_wISJYQ_cEeOHyJHuq9PZ0A" name="game" type="_RjlQ8A_cEeOHyJHuq9PZ0A" association="_wISJYA_cEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wISJYg_cEeOHyJHuq9PZ0A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wISJYw_cEeOHyJHuq9PZ0A" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_wIQ7QA_cEeOHyJHuq9PZ0A" name="player" type="_bCdmMA_cEeOHyJHuq9PZ0A" association="_wISJYA_cEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wIQ7QQ_cEeOHyJHuq9PZ0A" value="2"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wIQ7Qg_cEeOHyJHuq9PZ0A" value="2"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6daxMA_cEeOHyJHuq9PZ0A" name="turn_timer" memberEnd="_6daxMQ_cEeOHyJHuq9PZ0A _6daKIA_cEeOHyJHuq9PZ0A">
+    <ownedEnd xmi:id="_6daxMQ_cEeOHyJHuq9PZ0A" name="turn" type="_q0rhwA_cEeOHyJHuq9PZ0A" association="_6daxMA_cEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6daxMg_cEeOHyJHuq9PZ0A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6daxMw_cEeOHyJHuq9PZ0A" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_6daKIA_cEeOHyJHuq9PZ0A" name="timer" type="_udT1UA_cEeOHyJHuq9PZ0A" association="_6daxMA_cEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6daKIQ_cEeOHyJHuq9PZ0A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6daKIg_cEeOHyJHuq9PZ0A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-AwVEA_cEeOHyJHuq9PZ0A" name="game_turn" memberEnd="_-AwVEQ_cEeOHyJHuq9PZ0A _-Auf4A_cEeOHyJHuq9PZ0A">
+    <ownedEnd xmi:id="_-AwVEQ_cEeOHyJHuq9PZ0A" name="game" type="_RjlQ8A_cEeOHyJHuq9PZ0A" association="_-AwVEA_cEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-AwVEg_cEeOHyJHuq9PZ0A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-AwVEw_cEeOHyJHuq9PZ0A" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_-Auf4A_cEeOHyJHuq9PZ0A" name="turn" type="_q0rhwA_cEeOHyJHuq9PZ0A" association="_-AwVEA_cEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-Auf4Q_cEeOHyJHuq9PZ0A" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-Auf4g_cEeOHyJHuq9PZ0A"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="__VcQEA_cEeOHyJHuq9PZ0A" name="player_game_turn_1_1" memberEnd="__VcQEQ_cEeOHyJHuq9PZ0A __VbpAA_cEeOHyJHuq9PZ0A">
+    <ownedEnd xmi:id="__VcQEQ_cEeOHyJHuq9PZ0A" name="player" type="_bCdmMA_cEeOHyJHuq9PZ0A" association="__VcQEA_cEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__VcQEg_cEeOHyJHuq9PZ0A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__VcQEw_cEeOHyJHuq9PZ0A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_IezoUA_dEeOHyJHuq9PZ0A" name="player_turn" memberEnd="_IezoUQ_dEeOHyJHuq9PZ0A _IezBQA_dEeOHyJHuq9PZ0A">
+    <ownedEnd xmi:id="_IezoUQ_dEeOHyJHuq9PZ0A" name="player" type="_bCdmMA_cEeOHyJHuq9PZ0A" association="_IezoUA_dEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IezoUg_dEeOHyJHuq9PZ0A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IezoUw_dEeOHyJHuq9PZ0A" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_IezBQA_dEeOHyJHuq9PZ0A" name="turn" type="_q0rhwA_cEeOHyJHuq9PZ0A" association="_IezoUA_dEeOHyJHuq9PZ0A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IezBQQ_dEeOHyJHuq9PZ0A" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IezBQg_dEeOHyJHuq9PZ0A"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_hRkXUA_dEeOHyJHuq9PZ0A" name="Core">
+    <packagedElement xmi:type="uml:Class" xmi:id="_RjlQ8A_cEeOHyJHuq9PZ0A" name="Game">
+      <ownedAttribute xmi:id="_btPBgA_cEeOHyJHuq9PZ0A" name="class2" type="_bCdmMA_cEeOHyJHuq9PZ0A" association="_btQPoA_cEeOHyJHuq9PZ0A">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_btPBgQ_cEeOHyJHuq9PZ0A" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_btPBgg_cEeOHyJHuq9PZ0A" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_gOjQkA_cEeOHyJHuq9PZ0A" name="class2" type="_bCdmMA_cEeOHyJHuq9PZ0A" association="_gOj3oA_cEeOHyJHuq9PZ0A">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gOjQkQ_cEeOHyJHuq9PZ0A" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gOjQkg_cEeOHyJHuq9PZ0A" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_lCwmcA_cEeOHyJHuq9PZ0A" name="class2" type="_bCdmMA_cEeOHyJHuq9PZ0A" association="_lCx0kA_cEeOHyJHuq9PZ0A">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lCwmcQ_cEeOHyJHuq9PZ0A" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lCwmcg_cEeOHyJHuq9PZ0A" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_bCdmMA_cEeOHyJHuq9PZ0A" name="Team">
+      <ownedAttribute xmi:id="__VbpAA_cEeOHyJHuq9PZ0A" name="game_turn_1" type="_-AwVEA_cEeOHyJHuq9PZ0A" association="__VcQEA_cEeOHyJHuq9PZ0A">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__VbpAQ_cEeOHyJHuq9PZ0A" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__VbpAg_cEeOHyJHuq9PZ0A" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_q0rhwA_cEeOHyJHuq9PZ0A" name="Turn"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_udT1UA_cEeOHyJHuq9PZ0A" name="Timer"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8_qPAA_dEeOHyJHuq9PZ0A" name="Deck"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_CyoTMA_eEeOHyJHuq9PZ0A" name="game_deck" memberEnd="_CyoTMQ_eEeOHyJHuq9PZ0A _CynsIA_eEeOHyJHuq9PZ0A">
+      <ownedEnd xmi:id="_CyoTMQ_eEeOHyJHuq9PZ0A" name="game" type="_RjlQ8A_cEeOHyJHuq9PZ0A" association="_CyoTMA_eEeOHyJHuq9PZ0A">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CyoTMg_eEeOHyJHuq9PZ0A" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CyoTMw_eEeOHyJHuq9PZ0A" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_CynsIA_eEeOHyJHuq9PZ0A" name="deck" type="_8_qPAA_dEeOHyJHuq9PZ0A" association="_CyoTMA_eEeOHyJHuq9PZ0A">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CynsIQ_eEeOHyJHuq9PZ0A" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CynsIg_eEeOHyJHuq9PZ0A" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_LaruIA_eEeOHyJHuq9PZ0A" name="Card"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_NmdpMA_eEeOHyJHuq9PZ0A" name="deck_card" memberEnd="_NmdpMQ_eEeOHyJHuq9PZ0A _NmdCIA_eEeOHyJHuq9PZ0A">
+      <ownedEnd xmi:id="_NmdpMQ_eEeOHyJHuq9PZ0A" name="deck" type="_8_qPAA_dEeOHyJHuq9PZ0A" association="_NmdpMA_eEeOHyJHuq9PZ0A">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NmdpMg_eEeOHyJHuq9PZ0A" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NmdpMw_eEeOHyJHuq9PZ0A" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_NmdCIA_eEeOHyJHuq9PZ0A" name="cards" type="_LaruIA_eEeOHyJHuq9PZ0A" association="_NmdpMA_eEeOHyJHuq9PZ0A">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NmdCIQ_eEeOHyJHuq9PZ0A" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NmdCIg_eEeOHyJHuq9PZ0A"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_AEn_YA_fEeOHyJHuq9PZ0A" name="Board"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_GtGvQA_fEeOHyJHuq9PZ0A" name="game_board" memberEnd="_GtGvQQ_fEeOHyJHuq9PZ0A _GtGIMA_fEeOHyJHuq9PZ0A">
+      <ownedEnd xmi:id="_GtGvQQ_fEeOHyJHuq9PZ0A" name="game" type="_RjlQ8A_cEeOHyJHuq9PZ0A" association="_GtGvQA_fEeOHyJHuq9PZ0A">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GtGvQg_fEeOHyJHuq9PZ0A" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GtGvQw_fEeOHyJHuq9PZ0A" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_GtGIMA_fEeOHyJHuq9PZ0A" name="board" type="_AEn_YA_fEeOHyJHuq9PZ0A" association="_GtGvQA_fEeOHyJHuq9PZ0A">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GtGIMQ_fEeOHyJHuq9PZ0A" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GtGIMg_fEeOHyJHuq9PZ0A" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_27v54A_fEeOHyJHuq9PZ0A" name="turn_card" memberEnd="_27v54Q_fEeOHyJHuq9PZ0A _27vS0A_fEeOHyJHuq9PZ0A">
+      <ownedEnd xmi:id="_27v54Q_fEeOHyJHuq9PZ0A" name="turn" type="_q0rhwA_cEeOHyJHuq9PZ0A" association="_27v54A_fEeOHyJHuq9PZ0A">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_27v54g_fEeOHyJHuq9PZ0A" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_27v54w_fEeOHyJHuq9PZ0A" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_27vS0A_fEeOHyJHuq9PZ0A" name="card" type="_LaruIA_eEeOHyJHuq9PZ0A" association="_27v54A_fEeOHyJHuq9PZ0A">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_27vS0Q_fEeOHyJHuq9PZ0A" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_27vS0g_fEeOHyJHuq9PZ0A"/>
+      </ownedEnd>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
